@@ -1,0 +1,17 @@
+.Skills {
+  max-width: 1000px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.Skills__container {
+
+  display: flex;
+}
+
+.card {
+  height: auto;
+  padding: 10px 15px;
+  width: 33.3%;
+  margin-right: 20px;
+}
