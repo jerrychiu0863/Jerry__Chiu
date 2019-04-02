@@ -1,7 +1,7 @@
 .Banner {
   position: relative;
   text-align: center;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: #f9f9f9;
 }
@@ -15,13 +15,14 @@
 
 .Banner__header--main {
   color: #333;
+  text-shadow: 1px 4px 4px rgba(0,0,0,.4), 10px 8px 13px rgba(0,0,0,.1);
   font-size: 80px;
   font-weight: 900;
 }
 
 .Banner__header--sub {
   font-size: 18px;
-  letter-spacing: .2px;
+  letter-spacing: 2px;
   font-weight: 400;
   color: #666;
 }

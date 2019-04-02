@@ -1,17 +1,27 @@
 .Skills {
   max-width: 1000px;
   text-align: center;
-  margin: 30px auto;
+  margin: 50px auto;
 }
 
 .Skills__container {
-
   display: flex;
 }
 
 .card {
-  height: auto;
+  height: 200px;
   padding: 10px 15px;
   width: 33.3%;
   margin-right: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.18);
+  transition: all .2s linear;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 4px 4px 10px rgba(0,0,0,.1);
 }
