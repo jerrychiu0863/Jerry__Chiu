@@ -1,0 +1,194 @@
+.Navbar {
+  position: relative;
+}
+
+.Navbar__container {
+  padding: 0px 140px;
+}
+
+.top-nav--orangebg {
+  background-color: #f7931d;
+}
+
+.top-nav--orangebg .Navbar__nav-link--app{
+  background-color: #fff !important;
+  color: #f7931d !important;
+}
+
+.Navbar__nav-item .nav-links {
+  text-transform: uppercase;
+  color: #666;
+  letter-spacing: 2px;
+  font-size: 12px;
+  padding: 4px 24px;
+}
+
+.Navbar__nav-link--app .nav-links {
+  background-color: #f7931d;
+  border-width: 0px;
+  border-radius: 15px;
+}
+
+.Navbar__navbar .Navbar__nav-link--app {
+  background-color: #F7931D;
+  border-radius: 24px;
+  color: #FFF;
+}
+
+/* .d88888b                             dP dP oo
+88.    "'                            88 88
+`Y88888b. .d8888b. 88d888b. .d8888b. 88 88 dP 88d888b. .d8888b.
+      `8b 88'  `"" 88'  `88 88'  `88 88 88 88 88'  `88 88'  `88
+d8'   .8P 88.  ... 88       88.  .88 88 88 88 88    88 88.  .88
+ Y88888P  `88888P' dP       `88888P' dP dP dP dP    dP `8888P88
+                                                            .88
+                                                        d8888P
+
+
+88d888b. .d8888b. .d8888b. .d8888b.
+88'  `88 88'  `88 88'  `88 88ooood8
+88.  .88 88.  .88 88.  .88 88.  ...
+88Y888P' `88888P8 `8888P88 `88888P'
+88                     .88
+dP                 d8888P */
+
+
+
+/* transition bar */
+.top-nav-collapse {
+  background-color: #555;
+}
+
+.top-nav-collapse .navbar-nav .nav-item .nav-links {
+  color: #fff;
+}
+
+/* remove top navbar pad on landing page */
+.top-nav-collapse .container-fluid {
+  padding-top: 0px;
+}
+
+.top-nav-collapse .Navbar__nav-link--app, .collapse.show .Navbar__nav-link--app {
+  background-color: #FFF;
+  color: #F7931D;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+/* hide landing page logo on scroll */
+.top-nav-collapse .Navbar__brand-image--large-image {
+  display: none;
+}
+
+/* handles transition animation between landing page navbar and scrolling navbar */
+@media (min-width: 768px) {
+  .navbar.scrolling-navbar {
+    -webkit-transition:background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out; /* transition for original to orange */
+    /* Possible removal */
+    padding-top: 16px;
+    padding-bottom: 16px
+  }
+  .navbar.scrolling-navbar .navbar-nav>li {
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s
+  }
+  /* Possible removal */
+  .navbar.scrolling-navbar.top-nav-collapse {
+    padding: 5px 0;
+  }
+  .intro-margin.view {
+    overflow: visible;
+    margin-top: -56px;
+  }
+}
+
+/* Mobile screens up to tablets */
+@media only screen and (max-width: 767px) {
+  .Navbar__container {
+    padding-top: 0px;
+  }
+  .show.navbar-collapse {
+    padding-bottom: 16px;
+  }
+  .navbar.scrolling-navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* Resetting padding-top/bottom to remove transition effect */
+  }
+  .Navbar__navbar.scrolling-navbar .navbar-nav>li {
+    -webkit-transition-duration: 1s; transition-duration: 1s
+  }
+  .Navbar__navbar.scrolling-navbar.top-nav-collapse {
+    /* Resetting padding-top/bottom to remove transition effect */
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .intro-margin.view {
+    overflow: visible;
+    margin-top: -56px;
+  }
+  .Navbar__navbar {
+    background-color: #333;
+  }
+  .Navbar__navbar .container-fluid {
+    padding-top: 0px;
+  }
+  .Navbar__nav-item {
+    margin-top: 8px;
+  }
+  .Navbar_navbar .Navbar__brand-image--mobile-image {
+    display: inline;
+  }
+  .Navbar__navbar .Navbar__brand-image--large-image {
+    display: none;
+  }
+  .Navbar__nav-item {
+    margin-top: 6px;
+  }
+  .Navbar__nav-item .nav-links {
+    color: #fff;
+    padding: 0px 0px 0px 16px;
+  }
+  .Navbar__nav-item .Navbar__nav-link--app {
+    padding: 4px 16px;
+  }
+  
+  .navbar-light .navbar-toggler {
+    border-color: #999;
+    background-color: #f7f7f7;
+  }
+}
+
+/* Medium screen sizes and above, display the full logo */
+@media only screen and (min-width: 768px) {
+  .navbar .Navbar__brand-image--large-image {
+    display: inline;
+  }
+  .navbar .Navbar__brand-image--mobile-image {
+    display: none;
+  }
+  .Navbar__nav-item .nav-links {
+    padding: 4px 16px;
+  }
+}
+
+/* Medium */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .Navbar__container {
+    padding: 0px 80px;
+  }
+  .Navbar__brand-image--large-image {
+    height: 34px;
+  }
+}
+
+/* Large */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .Navbar__container {
+    padding: 0px 80px;
+  }
+  .Navbar__brand-image--large-image {
+    height: 48px;
+  }
+}
