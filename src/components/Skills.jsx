@@ -15,19 +15,20 @@ class Skills extends Component {
   render() {
     return (
     <div className="Skills container">
-       <h2 style={{textTransform: 'uppercase', marginBottom: '30px', fontWeight: '700', letterSpacing: '2px'}}>Skills</h2>
+       <h2 style={{textTransform: 'uppercase', marginBottom: '30px', fontWeight: '900', letterSpacing: '2px', fontSize: '45px'}}>Skills</h2>
          <div className="Skills__container">
-           <div className="card" style={{textAlign: 'center', borderTop: '5px solid #f7931d'}}>
-             <h3 className="card-title" style={{borderBottom: '1px solid rgba(0,0,0,.1)', padding: '0 0 10px 0'}}>Front End</h3> 
-             <p style={{textAlign: 'left', lineHeight: '1.8', color: '#666'}}>HTML / CSS / JavaScript / React / Redux / Bootstrap / jQuery / Sass / RWD / React Router</p>
+           <div className="card" style={{textAlign: 'center'}}>
+             <div className="card__title card__title-1"><span>Front end</span></div>
+             {/*<h3 className="card-title" style={{borderBottom: '1px solid rgba(0,0,0,.1)', padding: '0 0 10px 0'}}>Front End</h3>*/} 
+             <p style={{textAlign: 'left', lineHeight: '1.8', color: '#666'}}>HTML / CSS / JavaScript / React / Redux / Bootstrap / jQuery / Sass / RWD / React Router / Ajax</p>
            </div>
-            <div className="card" style={{textAlign: 'center', borderTop: '5px solid #1a82e2'}}>
-             <h3 className="card-title" style={{borderBottom: '1px solid rgba(0,0,0,.1)', padding: '0 0 10px 0'}}>Back End</h3> 
-             <p style={{textAlign: 'left', lineHeight: '1.8'}}>Node.js / Express / MongoDB / Mongoose</p>
+            <div className="card" style={{textAlign: 'center'}}>
+              <div className="card__title card__title-2"><span>Back end</span></div>
+              <p style={{textAlign: 'left', lineHeight: '1.8'}}>Node.js / Express / MongoDB / Mongoose</p>
             </div>
-            <div className="card" style={{textAlign: 'center', borderTop: '5px solid #36d081'}}>
-             <h3 className="card-title" style={{borderBottom: '1px solid rgba(0,0,0,.1)', padding: '0 0 10px 0'}}>Miscellaneous</h3> 
-             <p style={{textAlign: 'left', lineHeight: '1.8'}}>Git / Github / Gitlab / NPM / Yarn / Heroku</p>
+            <div className="card" style={{textAlign: 'center'}}>
+              <div className="card__title card__title-3"><span>Misc.</span></div>
+              <p style={{textAlign: 'left', lineHeight: '1.8'}}>Git / Github / Gitlab / NPM / Yarn / Heroku</p>
           </div>
         </div>
       </div>

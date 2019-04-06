@@ -1,21 +1,81 @@
 .Skills {
-  max-width: 1000px;
+  max-width: 900px;
   text-align: center;
-  margin: 50px auto;
+  margin: 50px auto 80px auto;
 }
 
 .Skills__container {
   display: flex;
+  justify-content: space-between;
+}
+
+
+
+.Skills__card:last-child {
+  margin-right: 0;
 }
 
 .card {
-  height: 200px;
-  padding: 10px 15px;
-  width: 33.3%;
-  margin-right: 20px;
+  position: relative;
+  margin-top: 20px;
+  width: 280px;
+  height: 150px;
+  padding: 30px 15px;
+  /*width: 33.3%;*/
+  /*margin-right: 20px;*/
   box-shadow: 0 2px 4px rgba(0,0,0,.18);
   transition: all .2s linear;
 }
+
+.card__title {
+  position: absolute;
+  width: 120px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 20px;
+  top: -12%;
+  left: 25%;
+  box-shadow: 0 2px 4px rgba(0,0,0,.18);
+  transform: translateX(-50%);
+}
+
+.card__title::before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  z-index: 1;
+  top: 95%;
+  left: 50%;
+  transform: rotate(45deg) translateX(-50%);
+}
+
+.card__title-1 {
+  background-color: #f7931d;
+}
+
+.card__title-1::before {
+  background-color: #f7931d;
+}
+
+.card__title-2 {
+  background-color: #1a82e2;
+}
+
+.card__title-2::before {
+  background-color: #1a82e2;
+}
+
+.card__title-3 {
+  background-color: #36d081;
+}
+
+.card__title-3::before {
+  background-color: #36d081;
+}
+
 
 .card:last-child {
   /*margin-right: 0;*/
