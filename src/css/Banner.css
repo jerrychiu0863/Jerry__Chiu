@@ -17,6 +17,7 @@
 
 .Banner__header--main {
   color: #333;
+  min-width: 600px;
   text-shadow: 1px 4px 4px rgba(0,0,0,.4), 10px 8px 13px rgba(0,0,0,.1);
   font-size: 80px;
   font-weight: 900;

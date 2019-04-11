@@ -9,10 +9,9 @@ class Banner extends Component {
   
   setAnimation = () => {
     const mainBanner = document.getElementsByClassName('Banner__header--main');
-    let subBanner = document.getElementsByClassName('Banner__header--sub');
+    const subBanner = document.getElementsByClassName('Banner__header--sub');
     mainBanner[0].classList.add('show');
     subBanner[0].classList.add('show');
-    console.log(mainBanner[0]);
   }
   
   render() {
