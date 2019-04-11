@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="Projects">
       <div className="container">
         <h2 style={{textTransform: 'uppercase', marginBottom: '30px', fontWeight: '700', letterSpacing: '2px'}}>Projects</h2>
-        <div className="row justify-content-between">
+        <div className="row">
           <div className="col-6" style={{overflow: 'hidden'}}>
             <img src={winkel} width='100%' alt="win-kel" />
             <div>

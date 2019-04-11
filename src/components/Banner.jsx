@@ -4,14 +4,16 @@ import '../css/Banner.css';
 class Banner extends Component {
   
   componentDidMount() {
-    window.addEventListener('load', this.setAnimation);
+    this.setAnimation();
   }
   
   setAnimation = () => {
-    const mainBanner = document.getElementsByClassName('Banner__header--main');
-    const subBanner = document.getElementsByClassName('Banner__header--sub');
-    mainBanner[0].classList.add('show');
-    subBanner[0].classList.add('show');
+    window.addEventListener('load', () => {
+      const mainBanner = document.getElementsByClassName('Banner__header--main');
+      const subBanner = document.getElementsByClassName('Banner__header--sub');
+      mainBanner[0].classList.add('show');
+      subBanner[0].classList.add('show');
+    });
   }
   
   render() {

@@ -17,7 +17,7 @@ const skillLists = [
   {
     id: 3,
     type: 'Misc.',
-    content: 'Git / Github / Gitlab / NPM / Yarn / Heroku'
+    content: 'Git / Github / Gitlab / NPM / Yarn / Heroku / Google Analytics'
   }
 ];
 
