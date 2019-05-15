@@ -29,12 +29,12 @@ class Banner extends Component {
         <div className="Banner__container">
           <h1 className="Banner__header--main">Kuan-Jen Chiu</h1>
           <p className="Banner__header--sub">Web Developer / Front End Developer</p>
-          <button className="btn btn-outline-dark" style={{padding: '8px 60px'}}>
+          {/*<button className="btn btn-outline-dark" style={{padding: '8px 60px'}}>
             <span style={{marginRight: '10px'}}>
               <i className="fas fa-arrow-down"></i>
             </span>
             Resume
-          </button>
+          </button>*/}
         </div>      
       </div>
     );

@@ -83,10 +83,6 @@ class NavBar extends Component {
         >
           <Container fluid className="Navbar__container">
             <NavbarBrand className="Navbar__navbar-brand">
-              <Link to="/">
-                
-                <p>&nbsp;</p>
-              </Link>
             </NavbarBrand>
             <NavbarToggler
               className="Navbar__toggler"
@@ -100,8 +96,17 @@ class NavBar extends Component {
                 <NavItem className="Navbar__nav-item">
                   <Link
                     className="Navbar__nav-link--about nav-links mobile-link"
-                    to='/#rent'
-                    scroll={el => this.props.onScrollWithOffset(el, 30)}
+                    to='/'
+                    onClick={() => window.scrollTo(0,0)}
+                  >
+                    Home
+                  </Link>
+                </NavItem>
+                <NavItem className="Navbar__nav-item">
+                  <Link
+                    className="Navbar__nav-link--about nav-links mobile-link"
+                    to='/#skills'
+                    scroll={el => this.props.onScrollWithOffset(el, 120)}
                     onClick={() => {
                       this.handleClick();
                     }}
@@ -112,8 +117,8 @@ class NavBar extends Component {
                 <NavItem className="Navbar__nav-item" >
                   <Link
                     className="Navbar__nav-link--about nav-links mobile-link"
-                    to='/#host'
-                    scroll={el => this.props.onScrollWithOffset(el, 30)}
+                    to='/#projects'
+                    scroll={el => this.props.onScrollWithOffset(el, 60)}
                     onClick={() => {
                       this.handleClick();
                     }}
@@ -125,7 +130,8 @@ class NavBar extends Component {
                 <NavItem className="Navbar__nav-item">
                   <Link
                     className="Navbar__nav-link--support nav-links"
-                    to="/support"
+                    to="/#contact"
+                    scroll={el => this.props.onScrollWithOffset(el, 0)}
                     onClick={() => {
                       this.handleClick();
                     }}

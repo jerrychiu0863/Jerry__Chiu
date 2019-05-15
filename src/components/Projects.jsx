@@ -4,21 +4,28 @@ import '../css/Projects.css';
 import project1 from '../assets/projects/winkel.jpg';
 import project2 from '../assets/projects/transitionBGgenerator.jpg';
 
+import ProjectItem from './ProjectItem';
+import HeaderDisplay from './HeaderDisplay';
+
 const Projects = () => {
   return (
-    <div className="Projects">
+    <div className="Projects" id="projects">
       <div className="container">
-        <h2 style={{textTransform: 'uppercase', marginBottom: '30px', fontWeight: '700', letterSpacing: '2px'}}>Projects</h2>
-        <div className="row">
-          <div className="col-6" style={{overflow: 'hidden'}}>
-            <img src={project1} width='100%' height='auto' alt="win-kel" />
-             
-          </div>
-          <div className="col-6" style={{overflow: 'hidden'}}>
-            <img src={project2} width='100%' height='100%' alt="win-kel" />
-            
-          </div>
-        </div>
+        <HeaderDisplay
+          header={'Projects'}
+        />
+        <ProjectItem 
+          porjectOne={project1}
+          titleOne={'Win-Kel'}
+          projectTwo={project1}
+          titleTwo={'Transition Background Generator'}
+        />
+        <ProjectItem 
+          porjectOne={project1}
+          titleOne={'Win-Kel'}
+          projectTwo={project1}
+          titleTwo={'Transition Background Generator'}
+        />
       </div>
     </div>
   );

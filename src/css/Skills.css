@@ -5,29 +5,34 @@
 }
 
 .Skills__container {
-  display: flex;
-  justify-content: space-between;
+
 }
-
-
 
 .Skills__card:last-child {
   margin-right: 0;
 }
 
-.card {
+.Card {
+  text-align: center; 
+  padding: 10px;
+}
+
+.Card:hover .Card__container {
+  transform: translateY(-3px);
+  box-shadow: 4px 4px 10px rgba(0,0,0,.1);
+}
+
+.Card__container {
   position: relative;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
   width: 280px;
   height: 150px;
   padding: 30px 15px;
-  /*width: 33.3%;*/
-  /*margin-right: 20px;*/
   box-shadow: 0 2px 4px rgba(0,0,0,.18);
   transition: all .2s linear;
 }
 
-.card__title {
+.Card__container--title {
   position: absolute;
   width: 120px;
   font-weight: 700;
@@ -41,7 +46,7 @@
   transform: translateX(-50%);
 }
 
-.card__title::before {
+.Card__container--title::before {
   position: absolute;
   content: '';
   width: 10px;
@@ -52,36 +57,47 @@
   transform: rotate(45deg) translateX(-50%);
 }
 
-.card__title-1 {
+.Card__container--title-1 {
   background-color: #f7931d;
 }
 
-.card__title-1::before {
+.Card__container--title-1::before {
   background-color: #f7931d;
 }
 
-.card__title-2 {
+.Card__container--title-2 {
   background-color: #1a82e2;
 }
 
-.card__title-2::before {
+.Card__container--title-2::before {
   background-color: #1a82e2;
 }
 
-.card__title-3 {
+.Card__container--title-3 {
   background-color: #36d081;
 }
 
-.card__title-3::before {
+.Card__container--title-3::before {
   background-color: #36d081;
 }
 
-
-.card:last-child {
-  /*margin-right: 0;*/
+.Card__container--text {
+  text-align: left; 
+  line-height: 1.8; 
+  color: #666;
 }
 
-.card:hover {
-  transform: translateY(-3px);
-  box-shadow: 4px 4px 10px rgba(0,0,0,.1);
+@media only screen and (max-width: 990px) {
+  .Skills__container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+/*X-small Mobile devices*/
+@media only screen and (max-width: 376px) {
+  .Card__container--text {
+    font-size: 14px;
+    letter-spacing: .6px;
+  }
 }

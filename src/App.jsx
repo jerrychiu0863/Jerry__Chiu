@@ -33,7 +33,7 @@ class App extends Component {
   
   scrollWithOffset = (el, offset) => {
     const elementPosition = el.offsetTop - offset;
-    console.log(elementPosition);
+    console.log(el);
     window.scroll({
       top: elementPosition,
       left: 0,

@@ -19,7 +19,7 @@
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
-.Contact__left p{
+.Contact__left p {
   width: 100%;
   margin: 0;
   color: #f7f7f7;
@@ -30,4 +30,75 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.Contact__list {
+  margin: 65px 20px 0 15px;
+}
+
+.Contact__list--item {
+  list-style: none;
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: center; 
+  margin-bottom: 10px;
+}
+
+.Contact__list--icon {
+  font-size: 18px; 
+  color: #f5ae51; 
+  margin-right: 10px;
+}
+
+.Contact__list--info {
+  color: #666; 
+  font-weight: 700; 
+  margin: 0; 
+  font-size: 14px;
+}
+
+/*Mobile devices*/
+@media only screen and (max-width: 576px) {
+  .Contact__card {
+    box-shadow: none;
+    max-width: auto;
+    height: 200px;
+    /*border: 1px solid rgba(0,0,0,.14);*/
+  }  
+
+  .Contact__left {
+    -webkit-clip-path: none;
+    clip-path: none;
+    padding: 15px 0;
+  }
+  
+  .Contact__right {
+    border: 1px solid rgba(0,0,0,.14);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .Contact__list {
+    margin: 20px auto;
+  }
+  
+  .Contact__list--item {
+    
+  }
+  
+  .Contact__list--info {
+    letter-spacing: .8px;
+  }
+}
+
+/*X-small Mobile devices*/
+@media only screen and (max-width: 376px) {
+  .Contact__list--icon {
+    font-size: 16px;
+  }
+  
+  .Contact__list--info {
+    font-size: 12px;
+  }
 }

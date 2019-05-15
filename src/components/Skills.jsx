@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import '../css/Skills.css';
 
 import Card from './Card';
+import HeaderDisplay from './HeaderDisplay';
 
 const skillLists = [
   {
     id: 1,
     type: 'Front end',
-    content: 'HTML / CSS / JavaScript / React / Redux / Bootstrap / jQuery / Sass / RWD / React Router / Ajax'
+    content: 'HTML / CSS / JavaScript / React / Redux / Bootstrap / jQuery / Sass / RWD / React Router / Ajax / Redux-Thunk'
   },
   {
     id: 2,
@@ -34,11 +35,16 @@ class Skills extends Component {
   
   render() {
     return (
-    <div className="Skills container">
-       <h2 style={{textTransform: 'uppercase', marginBottom: '30px', fontWeight: '900', letterSpacing: '2px', fontSize: '45px'}}>Skills</h2>
-         <div className="Skills__container">
-           {this.renderList()}
-         </div>
+      <div className="Skills container" id="skills">
+        <HeaderDisplay 
+          header={'Skills'}
+        />
+        {/*<div className="Skills__container">
+          {this.renderList()}
+        </div>*/}
+        <div className="Skills__container row">
+          {this.renderList()}
+        </div>
       </div>
     );
   }

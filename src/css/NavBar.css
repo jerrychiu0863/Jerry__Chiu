@@ -3,7 +3,7 @@
 }
 
 .Navbar__container {
-  padding: 0px 140px;
+  padding: 10px 140px;
 }
 
 .top-nav--orangebg {
@@ -95,7 +95,7 @@ dP                 d8888P */
   }
   /* Possible removal */
   .navbar.scrolling-navbar.top-nav-collapse {
-    padding: 5px 0;
+
   }
   .intro-margin.view {
     overflow: visible;
@@ -129,7 +129,7 @@ dP                 d8888P */
     margin-top: -56px;
   }
   .Navbar__navbar {
-    background-color: #333;
+    background-color: #555;
   }
   .Navbar__navbar .container-fluid {
     padding-top: 0px;
@@ -155,8 +155,14 @@ dP                 d8888P */
   }
   
   .navbar-light .navbar-toggler {
+    margin-top: 10px;
+    padding: 2px 8px;
     border-color: #999;
     background-color: #f7f7f7;
+  }
+  
+  .navbar-light .navbar-toggler:focus {
+    outline: none;
   }
 }
 

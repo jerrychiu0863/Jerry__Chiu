@@ -75,6 +75,30 @@
   animation: moveup 2.6s ease-in-out;
 }
 
+/*Mobile devices*/
+@media only screen and (max-width: 576px) {
+  .Banner__header--main {
+    font-size: 60px;
+  }
+  
+  .Banner__header--sub {
+    letter-spacing: 1px;
+  }
+}
+
+/*X-small Mobile devices*/
+@media only screen and (max-width: 376px) {
+  .Banner__header--main {
+    font-size: 45px;
+  }
+  
+  .Banner__header--sub {
+    font-size: 14px;
+  }
+}
+
+
+/*Animation*/
 @keyframes movedown {
   0% {
     transform: translateY(0);
