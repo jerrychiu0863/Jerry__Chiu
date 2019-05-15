@@ -1,8 +1,10 @@
 import React from 'react';
 import '../css/Projects.css';
 //import { HashLink as Link } from 'react-router-hash-link';
+
+//Project images
 import project1 from '../assets/projects/winkel.jpg';
-import project2 from '../assets/projects/transitionBGgenerator.jpg';
+import cssBGgenerator from '../assets/projects/cssGenerator.jpg';
 import blog from '../assets/projects/blog.jpg'
 
 import ProjectItem from './ProjectItem';
@@ -24,8 +26,9 @@ const Projects = () => {
           titleTwo={'Blog Engine'}
         />
         <ProjectItem 
-          porjectOne={project1}
-          titleOne={'Win-Kel'}
+          porjectOne={cssBGgenerator}
+          titleOne={'Css Background Generator'}
+          urlOne={'https://jerrychiu0863.github.io/react_redux_transitionBackgroundGenerator/'}
           projectTwo={project1}
           titleTwo={'Transition Background Generator'}
         />
