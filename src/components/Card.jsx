@@ -24,10 +24,10 @@ const Card = (props) => {
 
 export default Card;
 
- {/*<div className="card" style={{textAlign: 'center'}}>
+/*<div className="card" style={{textAlign: 'center'}}>
       <div className={`card__title card__title-${id}`}>
         <span>{type}</span>
       </div>
       <p style={{textAlign: 'left', lineHeight: '1.8', color: '#666'}}>{content}
       </p>
-   </div>*/}
+   </div>*/
