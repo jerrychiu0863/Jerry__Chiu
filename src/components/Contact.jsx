@@ -24,8 +24,12 @@ class Contact extends Component {
   
   renderContactInfo = (lists) => {
     return lists.map((list, index) => 
-      <li className="Contact__list--item" key={index}>
-        <i className={`Contact__list--icon ${list.icon}`}></i>
+      <li 
+       className="Contact__list--item" 
+       key={index}
+      >
+        <i className={`Contact__list--icon ${list.icon}`}>
+        </i>
         <p className="Contact__list--info">
           {list.body}
         </p>
@@ -35,7 +39,10 @@ class Contact extends Component {
   
   render() {
     return (
-      <div className="Contact container" id="contact">
+      <div 
+        className="Contact container" 
+        id="contact"
+      >
         <div className="Contact__card row">
         <div className="Contact__left col-12 col-sm-5">
           <p>Contact Info</p>

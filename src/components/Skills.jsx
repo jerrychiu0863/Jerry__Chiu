@@ -13,7 +13,7 @@ const skillLists = [
   {
     id: 2,
     type: 'Back end',
-    content: 'Node.js / Express / MongoDB / Mongoose'
+    content: 'RESTful API / Node.js / Express / MongoDB / Mongoose'
   },
   {
     id: 3,
@@ -39,9 +39,6 @@ class Skills extends Component {
         <HeaderDisplay 
           header={'Skills'}
         />
-        {/*<div className="Skills__container">
-          {this.renderList()}
-        </div>*/}
         <div className="Skills__container row">
           {this.renderList()}
         </div>

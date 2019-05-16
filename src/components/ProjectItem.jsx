@@ -14,7 +14,7 @@ const ProjectItem = (props) => {
                src={porjectOne} 
                width='100%' 
                height='100%' 
-               alt="win-kel" 
+               alt="project" 
              />
            </a>
            <div className="ProjectItem__titleContainer">
@@ -31,7 +31,7 @@ const ProjectItem = (props) => {
               src={projectTwo} 
               width='100%' 
               height='100%' 
-              alt="win-kel" 
+              alt="project" 
             />
           </a>
           <div className="ProjectItem__titleContainer">
