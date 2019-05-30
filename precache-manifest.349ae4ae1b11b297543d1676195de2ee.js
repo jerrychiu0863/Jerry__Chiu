@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "184b37d4cacd278073b67d39d010be58",
-    "url": "/Jerry__Chiu/static/media/cssGenerator.184b37d4.jpg"
+    "revision": "c99df92f2342b06377fa3278c05493a7",
+    "url": "/Jerry__Chiu/static/media/blog.c99df92f.jpg"
   },
   {
-    "revision": "61c261bd7e9832b62699",
-    "url": "/Jerry__Chiu/static/css/main.8987b135.chunk.css"
+    "revision": "75c048527789857b9b67",
+    "url": "/Jerry__Chiu/static/css/main.599f6616.chunk.css"
   },
   {
     "revision": "a6af6e32b49851533584",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/Jerry__Chiu/static/media/winkel.72f34b83.jpg"
   },
   {
-    "revision": "61c261bd7e9832b62699",
-    "url": "/Jerry__Chiu/static/js/main.834dc69a.chunk.js"
+    "revision": "184b37d4cacd278073b67d39d010be58",
+    "url": "/Jerry__Chiu/static/media/cssGenerator.184b37d4.jpg"
   },
   {
-    "revision": "c99df92f2342b06377fa3278c05493a7",
-    "url": "/Jerry__Chiu/static/media/blog.c99df92f.jpg"
+    "revision": "75c048527789857b9b67",
+    "url": "/Jerry__Chiu/static/js/main.bd84cd81.chunk.js"
   },
   {
     "revision": "c40107407e8c65361ff1ec9e93a97601",
@@ -40,7 +40,11 @@ self.__precacheManifest = [
     "url": "/Jerry__Chiu/static/media/artist.fe8cd713.jpg"
   },
   {
-    "revision": "3f0a50c296befb32254d601d035105be",
+    "revision": "c76efb0cffa1bf5574dce1736b82f8e1",
+    "url": "/Jerry__Chiu/static/media/keyboard.c76efb0c.jpg"
+  },
+  {
+    "revision": "6f9420d886e7f4e15750768f29627175",
     "url": "/Jerry__Chiu/index.html"
   }
 ];
