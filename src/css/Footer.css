@@ -1,11 +1,13 @@
 .Footer {
   text-align: center;
-  margin: 20px 0;
+  padding: 20px 0;
   font-size: 14px;
   color: #999;
+  background: #f9f9f9;
 }
 
 .Footer-copyright {
   letter-spacing: 8px; 
+  margin: 0;
   font-size: 10px;
 }

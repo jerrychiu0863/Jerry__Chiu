@@ -1,51 +1,42 @@
 .Contact {
   text-align: center;
-  margin: 50px auto;
-}
-
-.Contact__card {
-  overflow: hidden;
-  border-radius: 10px;
-  margin: 0 auto;
-  max-width: 480px;
-  height: 250px;
-  box-shadow: 0 2px 4px rgba(0,0,0,.24);
 }
 
 .Contact__left {
-  position: relative;
-  background: #f5ae51;
-  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  background-image: url("../assets/keyboard.jpg");
+  background-size: cover;
+  max-height: 300px;
 }
 
-.Contact__left p {
-  width: 100%;
-  margin: 0;
-  color: #f7f7f7;
-  letter-spacing: 1px;
-  font-size: 20px;
-  font-weight: 700;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.Contact__right {
+  padding: 15px 0 0 40px;
+}
+
+.Contact__right--header {
+  text-align: center; 
+  font-size: 25px; 
+  color: #333; 
+  font-weight: 900; 
+  margin: 0; 
+  letter-spacing: .2px;
 }
 
 .Contact__list {
-  margin: 65px 20px 0 15px;
+  margin-bottom: 15px;
+  max-width: 400px;
 }
 
 .Contact__list--item {
+  border-bottom: 2px solid rgba(0,0,0,.1);
   list-style: none;
   display: flex; 
   justify-content: flex-start; 
   align-items: center; 
-  margin-bottom: 10px;
+  padding: 15px 0;
 }
 
 .Contact__list--icon {
-  font-size: 18px; 
+  font-size: 16px; 
   color: #f5ae51; 
   margin-right: 10px;
 }
@@ -57,34 +48,27 @@
   font-size: 14px;
 }
 
-/*Mobile devices*/
-@media only screen and (max-width: 576px) {
-  .Contact__card {
-    box-shadow: none;
-    max-width: auto;
-    height: 200px;
-    /*border: 1px solid rgba(0,0,0,.14);*/
-  }  
-
+/*Hide image*/
+@media only screen and (max-width: 768px) {
   .Contact__left {
-    -webkit-clip-path: none;
-    clip-path: none;
-    padding: 15px 0;
-  }
-  
-  .Contact__right {
-    border: 1px solid rgba(0,0,0,.14);
-    border-radius: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+    display: none;
   }
   
   .Contact__list {
-    margin: 20px auto;
+    margin: 0 auto 15px auto;
+    max-width: 350px;
+  }
+}
+
+/*Mobile devices*/
+@media only screen and (max-width: 576px) {
+  .Contact__right {
+    padding: 15px 0 0 20px;
   }
   
-  .Contact__list--item {
-    
+  .Contact__list {
+    margin: 0 auto 15px auto;
+    max-width: 310px;
   }
   
   .Contact__list--info {
@@ -94,8 +78,12 @@
 
 /*X-small Mobile devices*/
 @media only screen and (max-width: 376px) {
-  .Contact__list--icon {
-    font-size: 16px;
+  .Contact__right {
+    padding: 15px 0 0 0;
+  }
+  
+  .Contact__list {
+    max-width: 290px;
   }
   
   .Contact__list--info {

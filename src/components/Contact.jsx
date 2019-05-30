@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/Contact.css';
+//import keyboard from '../assets/keyboard.jpg';
 
 const contactLists = [
   {  
@@ -40,18 +41,21 @@ class Contact extends Component {
   render() {
     return (
       <div 
-        className="Contact container" 
+        className="Contact"
+        style={{overflow: 'hidden'}}
         id="contact"
       >
-        <div className="Contact__card row">
-        <div className="Contact__left col-12 col-sm-5">
-          <p>Contact Info</p>
+        <div className="row">
+        <div className="Contact__left col-0 col-sm-0 col-md-6">
         </div>
-        <div className="Contact__right col-12 col-sm-7">
+        <div className="Contact__right col-12 col-sm-12 col-md-6 container">
+          <span className="Contact__right--header">
+            Contact Info
+          </span>
           <ul className="Contact__list">
             {this.renderContactInfo(contactLists)}
           </ul>
-         </div>
+        </div>
       </div>
     </div>
    );
