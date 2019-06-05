@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../css/Contact.css';
-//import keyboard from '../assets/keyboard.jpg';
 
 const contactLists = [
   {  

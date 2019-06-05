@@ -1,7 +1,5 @@
 import React from 'react';
 import '../css/ProjectItem.css';
-//import project1 from '../assets/projects/winkel.jpg';
-//import project2 from '../assets/projects/transitionBGgenerator.jpg';
 
 const ProjectItem = (props) => {
   const { urlOne, urlTwo, porjectOne, projectTwo, titleOne, titleTwo } = props;
@@ -11,9 +9,8 @@ const ProjectItem = (props) => {
         <div className="ProjectItem__container">
            <a href={urlOne} target="_blank" rel="noopener noreferrer">
              <img
+               className="ProjectItem__container--img"
                src={porjectOne} 
-               width='100%' 
-               height='100%' 
                alt="project" 
              />
            </a>
@@ -27,10 +24,9 @@ const ProjectItem = (props) => {
       <div className="col-sm-12 col-md-6">
         <div className="ProjectItem__container">
           <a href={urlTwo} target="_blank" rel="noopener noreferrer">
-            <img 
+            <img
+              className="ProjectItem__container--img" 
               src={projectTwo} 
-              width='100%' 
-              height='100%' 
               alt="project" 
             />
           </a>

@@ -4,16 +4,34 @@ import '../css/Banner.css';
 class Banner extends Component {
   
   componentDidMount() {
-    this.setAnimation();
+    
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        this.setAnimation()
+        setTimeout(() => {
+          this.hideStripes();
+        }, 800)
+      }, 1200)
+    });
+    
   }
   
   setAnimation = () => {
-    window.addEventListener('load', () => {
-      const mainBanner = document.getElementsByClassName('Banner__header--main');
-      const subBanner = document.getElementsByClassName('Banner__header--sub');
-      mainBanner[0].classList.add('show');
-      subBanner[0].classList.add('show');
+    
+    const mainBanner = document.getElementsByClassName('Banner__header--main');
+    const subBanner = document.getElementsByClassName('Banner__header--sub');
+    mainBanner[0].classList.add('show');
+    subBanner[0].classList.add('show');
+    
+  }
+  
+  hideStripes = () => {
+    
+    const stripes = document.querySelectorAll('.stripe');
+    [].forEach.call(stripes, stripe => {
+      stripe.classList.add('hide')
     });
+    
   }
   
   render() {

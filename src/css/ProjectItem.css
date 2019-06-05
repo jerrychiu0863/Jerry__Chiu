@@ -12,6 +12,16 @@
   cursor: pointer;
 }
 
+.ProjectItem__container--img {
+  width: 100%;
+  height: 100%;
+  transition: all .2s linear;
+}
+
+.ProjectItem__container:hover img {
+  opacity: .6;
+}
+
 .ProjectItem__titleContainer {
   width: 100%; 
   position: absolute;

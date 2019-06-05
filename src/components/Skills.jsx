@@ -25,12 +25,14 @@ const skillLists = [
 class Skills extends Component {
   
   renderList = () => {
-    return skillLists.map(list => <Card 
-      key={list.id} 
-      id={list.id} 
-      type={list.type} 
-      content={list.content} 
-    />);
+    return skillLists.map(list => 
+      <Card 
+        key={list.id} 
+        id={list.id} 
+        type={list.type} 
+        content={list.content} 
+      />
+    );
   }
   
   render() {
