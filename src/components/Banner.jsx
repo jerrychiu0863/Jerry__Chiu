@@ -10,8 +10,8 @@ class Banner extends Component {
         this.setAnimation()
         setTimeout(() => {
           this.hideStripes();
-        }, 800)
-      }, 1200)
+        }, 800);
+      }, 1200);
     });
     
   }
