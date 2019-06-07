@@ -41,7 +41,13 @@
   transform: translate(0, 0);
 }
 
-/*Stripe animation*/
+/*Opening animation*/
+.stop,
+.stop::before,
+.stop::after {
+  animation-play-state: paused !important;
+}
+
 .hide {
   opacity: 0;
   visibility: hidden;
