@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Jerry__Chiu/static/media/blog.c99df92f.jpg"
   },
   {
-    "revision": "c0d8badc95762e4ccdf4",
-    "url": "/Jerry__Chiu/static/css/main.8ac0917b.chunk.css"
+    "revision": "22aa728f3974aecd57a7",
+    "url": "/Jerry__Chiu/static/css/main.da54e1be.chunk.css"
   },
   {
     "revision": "a6af6e32b49851533584",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/Jerry__Chiu/static/media/cssGenerator.184b37d4.jpg"
   },
   {
-    "revision": "c0d8badc95762e4ccdf4",
-    "url": "/Jerry__Chiu/static/js/main.20953ac8.chunk.js"
+    "revision": "22aa728f3974aecd57a7",
+    "url": "/Jerry__Chiu/static/js/main.b397a5f5.chunk.js"
   },
   {
     "revision": "c40107407e8c65361ff1ec9e93a97601",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/Jerry__Chiu/static/media/keyboard.c76efb0c.jpg"
   },
   {
-    "revision": "5517688253fe19738bdedbfbf19ebd69",
+    "revision": "eed12d64812687e062dcb1c39e16ecd0",
     "url": "/Jerry__Chiu/index.html"
   }
 ];
