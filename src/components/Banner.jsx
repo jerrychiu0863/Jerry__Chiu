@@ -12,7 +12,7 @@ class Banner extends Component {
         setTimeout(() => {
           this.hideStripes();
         }, 800);
-      }, 1200);
+      }, 900);
     });*/
     
     window.addEventListener('DOMContentLoaded', () => {
@@ -20,7 +20,7 @@ class Banner extends Component {
       setTimeout(() => {
         this.hideStripes();
         this.setAnimation();
-      }, 2000);
+      }, 1800);
     });
     
   }

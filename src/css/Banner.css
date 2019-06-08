@@ -23,7 +23,7 @@
   font-weight: 900;
   opacity: 0;
   transform: translateX(-20px);
-  transition: all 1s linear 2s;
+  transition: all 1s linear .6s;
 }
 
 .Banner__header--sub {
@@ -33,7 +33,7 @@
   letter-spacing: 2px;
   font-weight: 400;
   color: #666;
-  transition: all 1s linear 2.4s;
+  transition: all 1s linear 1s;
 }
 
 .show {
@@ -122,7 +122,7 @@
   }
   
   100% {
-    transform: translateY(1000px);
+    transform: translateY(2000px);
     visibility: hidden;
     opacity: 0;
   }
@@ -134,7 +134,7 @@
   }
   
   100% {
-    transform: translateY(-1000px);
+    transform: translateY(-2000px);
     visibility: hidden;
     opacity: 0;
   }
