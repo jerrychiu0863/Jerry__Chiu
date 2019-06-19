@@ -13,7 +13,7 @@ const skillLists = [
   {
     id: 2,
     type: 'Back end',
-    content: 'RESTful API / Node.js / Express / MongoDB / Mongoose'
+    content: 'REST API / Node.js / Express / MongoDB / Mongoose'
   },
   {
     id: 3,

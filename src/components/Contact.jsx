@@ -4,11 +4,11 @@ import '../css/Contact.css';
 const contactLists = [
   {  
     icon: 'fas fa-map-pin',
-    body: 'San Francisco, CA, US'
+    body: 'Changhua, Taiwan'
   },
   {  
     icon: 'fas fa-phone',
-    body: '+1628-666-7201'
+    body: '0910-200-918'
   },
   {  
     icon: 'fas fa-envelope',
@@ -41,7 +41,6 @@ class Contact extends Component {
     return (
       <div 
         className="Contact"
-        style={{overflow: 'hidden'}}
         id="contact"
       >
         <div className="row">
