@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/Jerry__Chiu/static/media/keyboard.c76efb0c.jpg"
   },
   {
-    "revision": "fbc91a98d55d060f6ec1baf48fa1ccb7",
+    "revision": "571d5abf8b301f19dfdbbdc12de60d90",
     "url": "/Jerry__Chiu/index.html"
   }
 ];
