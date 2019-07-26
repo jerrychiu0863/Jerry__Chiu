@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
+//Components
 import NavBar from './components/NavBar';
 import Banner from './components/Banner';
 import Skills from './components/Skills';
@@ -11,12 +12,12 @@ import Footer from './components/Footer';
 class App extends Component {
   constructor() {
     super();
-    
+
     this.state = {
       width: window.innerWidth
-    }
+    };
   }
-  
+
   componentDidMount() {
     window.addEventListener('resize', this.updateWidth);
   }
@@ -24,13 +25,13 @@ class App extends Component {
   componentWillUnmount() {
     window.removeEventListener('resize', this.updateWidth);
   }
-  
+
   updateWidth = () => {
     this.setState({
       width: window.innerWidth
     });
-  }
-  
+  };
+
   scrollWithOffset = (el, offset) => {
     const elementPosition = el.offsetTop - offset;
     console.log(el);
@@ -39,12 +40,12 @@ class App extends Component {
       left: 0,
       behavior: 'smooth'
     });
-  }
+  };
 
-    render() {
+  render() {
     return (
       <div className="App">
-        <NavBar 
+        <NavBar
           width={this.state.width}
           onScrollWithOffset={this.scrollWithOffset}
         />

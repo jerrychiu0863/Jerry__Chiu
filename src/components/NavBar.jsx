@@ -9,10 +9,10 @@ import {
   NavbarNav,
   NavbarToggler,
   Collapse,
-  NavItem } from 'mdbreact';
+  NavItem
+} from 'mdbreact';
 
 class NavBar extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -36,39 +36,39 @@ class NavBar extends Component {
     this.setState({
       isOpen: !this.state.isOpen
     });
-  }
+  };
 
-  handleClick = (target) => {
+  handleClick = target => {
     // If logo is clicked and dropdown is open, do nothing.
     // Prevent displaying of dropdown when logo is pressed
     if (target === 'logo' && !this.state.isOpen) {
       this.setState({
-        isOpen: this.state.isOpen,
+        isOpen: this.state.isOpen
       });
-    // Collapse only in mobile devices
+      // Collapse only in mobile devices
     } else if (this.props.width < 768) {
       this.setState({
-        isOpen: !this.state.isOpen,
+        isOpen: !this.state.isOpen
       });
     }
-  }
+  };
 
-  handleClickOutside = (event) => {
+  handleClickOutside = event => {
     const navbarNode = this.navbarRef.current;
     if (!navbarNode.contains(event.target)) {
       this.setState({
         isOpen: false
       });
     }
-  }
+  };
 
-  handleScreenScrolling = (event) => {
+  handleScreenScrolling = event => {
     if (event.type === 'scroll') {
       this.setState({
-        isOpen: false,
+        isOpen: false
       });
     }
-  }
+  };
 
   render() {
     return (
@@ -82,8 +82,7 @@ class NavBar extends Component {
           scrolling
         >
           <Container fluid className="Navbar__container">
-            <NavbarBrand className="Navbar__navbar-brand">
-            </NavbarBrand>
+            <NavbarBrand className="Navbar__navbar-brand" />
             <NavbarToggler
               className="Navbar__toggler"
               onClick={() => {
@@ -96,8 +95,8 @@ class NavBar extends Component {
                 <NavItem className="Navbar__nav-item">
                   <Link
                     className="Navbar__nav-link--about nav-links mobile-link"
-                    to='/'
-                    onClick={() => window.scrollTo(0,0)}
+                    to="/"
+                    onClick={() => window.scrollTo(0, 0)}
                   >
                     Home
                   </Link>
@@ -105,7 +104,7 @@ class NavBar extends Component {
                 <NavItem className="Navbar__nav-item">
                   <Link
                     className="Navbar__nav-link--about nav-links mobile-link"
-                    to='/#skills'
+                    to="/#skills"
                     scroll={el => this.props.onScrollWithOffset(el, 120)}
                     onClick={() => {
                       this.handleClick();
@@ -114,10 +113,10 @@ class NavBar extends Component {
                     Skills
                   </Link>
                 </NavItem>
-                <NavItem className="Navbar__nav-item" >
+                <NavItem className="Navbar__nav-item">
                   <Link
                     className="Navbar__nav-link--about nav-links mobile-link"
-                    to='/#projects'
+                    to="/#projects"
                     scroll={el => this.props.onScrollWithOffset(el, 60)}
                     onClick={() => {
                       this.handleClick();
@@ -139,7 +138,6 @@ class NavBar extends Component {
                     Contact
                   </Link>
                 </NavItem>
-
               </NavbarNav>
             </Collapse>
           </Container>

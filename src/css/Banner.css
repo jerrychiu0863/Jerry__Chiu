@@ -18,12 +18,12 @@
 .Banner__header--main {
   color: #333;
   min-width: 600px;
-  text-shadow: 1px 4px 4px rgba(0,0,0,.4), 10px 8px 13px rgba(0,0,0,.1);
+  text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.4), 10px 8px 13px rgba(0, 0, 0, 0.1);
   font-size: 80px;
   font-weight: 900;
   opacity: 0;
   transform: translateX(-20px);
-  transition: all 1s linear .6s;
+  transition: all 1s linear 0.6s;
 }
 
 .Banner__header--sub {
@@ -60,32 +60,32 @@
   position: absolute;
   background-color: #666;
   z-index: 1;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .stripe-0 {
   width: 20%;
   top: 0;
   left: 0;
-  animation: movedown 1.8s ease-in-out 1.0s;
+  animation: movedown 1.8s ease-in-out 1s;
 }
 
 .stripe-1 {
   width: 10%;
   left: 20%;
-  animation: moveup 1.8s ease-in-out .8s; 
+  animation: moveup 1.8s ease-in-out 0.8s;
 }
 
 .stripe-2 {
   width: 40%;
   left: 30%;
-  animation: movedown 1.8s ease-in-out .8s;
+  animation: movedown 1.8s ease-in-out 0.8s;
 }
 
 .stripe-3 {
   width: 30%;
   left: 70%;
-  animation: moveup 1.8s ease-in-out 1.0s;
+  animation: moveup 1.8s ease-in-out 1s;
 }
 
 /*Mobile devices*/
@@ -93,7 +93,7 @@
   .Banner__header--main {
     font-size: 60px;
   }
-  
+
   .Banner__header--sub {
     letter-spacing: 1px;
   }
@@ -104,23 +104,22 @@
   .Banner__header--main {
     font-size: 45px;
   }
-  
+
   .Banner__header--sub {
     font-size: 14px;
   }
 }
-
 
 /*Animation*/
 @keyframes movedown {
   0% {
     transform: translateY(0);
   }
-  
+
   50% {
-    opacity: .8;
+    opacity: 0.8;
   }
-  
+
   100% {
     transform: translateY(2000px);
     visibility: hidden;
@@ -132,7 +131,7 @@
   0% {
     transform: translateY(0);
   }
-  
+
   100% {
     transform: translateY(-2000px);
     visibility: hidden;
@@ -144,7 +143,7 @@
   0% {
     opacity: 0;
   }
-  
+
   100% {
     opacity: 1;
   }

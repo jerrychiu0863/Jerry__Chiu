@@ -3,7 +3,7 @@
 }
 
 .Contact__left {
-  background-image: url("../assets/keyboard.jpg");
+  background-image: url('../assets/keyboard.jpg');
   background-size: cover;
   max-height: 300px;
 }
@@ -14,11 +14,11 @@
 
 .Contact__right--header {
   text-align: left;
-  font-size: 25px; 
-  color: #333; 
-  font-weight: 900; 
-  margin: 0; 
-  letter-spacing: .2px;
+  font-size: 25px;
+  color: #333;
+  font-weight: 900;
+  margin: 0;
+  letter-spacing: 0.2px;
 }
 
 .Contact__list {
@@ -27,11 +27,11 @@
 }
 
 .Contact__list--item {
-  border-bottom: 2px solid rgba(0,0,0,.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   list-style: none;
-  display: flex; 
-  justify-content: flex-start; 
-  align-items: center; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   padding: 15px 0;
 }
 
@@ -41,28 +41,28 @@
 }
 
 .Contact__list--icon {
-  font-size: 16px; 
-  color: #f5ae51; 
+  font-size: 16px;
+  color: #f5ae51;
   margin-right: 10px;
 }
 
 .Contact__list--info {
-  color: #666; 
-  font-weight: 700; 
-  margin: 0; 
+  color: #666;
+  font-weight: 700;
+  margin: 0;
   font-size: 14px;
 }
 
 /*Hide image*/
 @media only screen and (max-width: 768px) {
   .Contact {
-    text-align: center;  
+    text-align: center;
   }
-  
+
   .Contact__left {
     display: none;
   }
-  
+
   .Contact__list {
     margin: 0 auto 15px auto;
     max-width: 350px;
@@ -74,14 +74,14 @@
   .Contact__right {
     padding: 15px 0 0 20px;
   }
-  
+
   .Contact__list {
     margin: 0 auto 15px auto;
     max-width: 310px;
   }
-  
+
   .Contact__list--info {
-    letter-spacing: .8px;
+    letter-spacing: 0.8px;
   }
 }
 
@@ -90,11 +90,11 @@
   .Contact__right {
     padding: 15px 0 0 0;
   }
-  
+
   .Contact__list {
     max-width: 290px;
   }
-  
+
   .Contact__list--info {
     font-size: 12px;
   }

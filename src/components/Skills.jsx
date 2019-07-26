@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../css/Skills.css';
 
 import Card from './Card';
@@ -8,7 +8,8 @@ const skillLists = [
   {
     id: 1,
     type: 'Front end',
-    content: 'HTML / CSS / JavaScript / React / Redux / Bootstrap / jQuery / Sass / RWD / React Router / Ajax / Redux-Thunk'
+    content:
+      'HTML / CSS / JavaScript / React / Redux / Bootstrap / jQuery / Sass / RWD / React Router / Ajax / Redux-Thunk'
   },
   {
     id: 2,
@@ -22,31 +23,24 @@ const skillLists = [
   }
 ];
 
-class Skills extends Component {
-  
-  renderList = () => {
-    return skillLists.map(list => 
-      <Card 
-        key={list.id} 
-        id={list.id} 
-        type={list.type} 
-        content={list.content} 
+const Skills = () => {
+  const renderList = lists => {
+    return lists.map(list => (
+      <Card
+        key={list.id}
+        id={list.id}
+        type={list.type}
+        content={list.content}
       />
-    );
-  }
-  
-  render() {
-    return (
-      <div className="Skills container" id="skills">
-        <HeaderDisplay 
-          header={'Skills'}
-        />
-        <div className="Skills__container row">
-          {this.renderList()}
-        </div>
-      </div>
-    );
-  }
-}
+    ));
+  };
+
+  return (
+    <div className="Skills container" id="skills">
+      <HeaderDisplay header={'Skills'} />
+      <div className="Skills__container row">{renderList(skillLists)}</div>
+    </div>
+  );
+};
 
 export default Skills;

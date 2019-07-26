@@ -5,7 +5,6 @@
 }
 
 .Skills__container {
-
 }
 
 .Skills__card:last-child {
@@ -13,13 +12,13 @@
 }
 
 .Card {
-  text-align: center; 
+  text-align: center;
   padding: 10px;
 }
 
 .Card:hover .Card__container {
   transform: translateY(-3px);
-  box-shadow: 4px 4px 10px rgba(0,0,0,.1);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .Card__container {
@@ -28,21 +27,21 @@
   width: 280px;
   height: 150px;
   padding: 30px 15px;
-  box-shadow: 0 2px 4px rgba(0,0,0,.18);
-  transition: all .2s linear;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+  transition: all 0.2s linear;
 }
 
 .Card__container--title {
   position: absolute;
   width: 120px;
   font-weight: 700;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
   color: #fff;
   border-radius: 5px;
   padding: 5px 20px;
   top: -12%;
   left: 25%;
-  box-shadow: 0 2px 4px rgba(0,0,0,.18);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
   transform: translateX(-50%);
 }
 
@@ -81,8 +80,8 @@
 }
 
 .Card__container--text {
-  text-align: left; 
-  line-height: 1.8; 
+  text-align: left;
+  line-height: 1.8;
   color: #666;
 }
 
@@ -97,6 +96,6 @@
 @media only screen and (max-width: 376px) {
   .Card__container--text {
     font-size: 14px;
-    letter-spacing: .6px;
+    letter-spacing: 0.6px;
   }
 }

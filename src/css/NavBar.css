@@ -10,7 +10,7 @@
   background-color: #f7931d;
 }
 
-.top-nav--orangebg .Navbar__nav-link--app{
+.top-nav--orangebg .Navbar__nav-link--app {
   background-color: #fff !important;
   color: #f7931d !important;
 }
@@ -30,9 +30,9 @@
 }
 
 .Navbar__navbar .Navbar__nav-link--app {
-  background-color: #F7931D;
+  background-color: #f7931d;
   border-radius: 24px;
-  color: #FFF;
+  color: #fff;
 }
 
 /* .d88888b                             dP dP oo
@@ -52,8 +52,6 @@ d8'   .8P 88.  ... 88       88.  .88 88 88 88 88    88 88.  .88
 88                     .88
 dP                 d8888P */
 
-
-
 /* transition bar */
 .top-nav-collapse {
   background-color: #555;
@@ -68,9 +66,10 @@ dP                 d8888P */
   padding-top: 0px;
 }
 
-.top-nav-collapse .Navbar__nav-link--app, .collapse.show .Navbar__nav-link--app {
-  background-color: #FFF;
-  color: #F7931D;
+.top-nav-collapse .Navbar__nav-link--app,
+.collapse.show .Navbar__nav-link--app {
+  background-color: #fff;
+  color: #f7931d;
   border-radius: 24px;
   cursor: pointer;
 }
@@ -83,19 +82,18 @@ dP                 d8888P */
 /* handles transition animation between landing page navbar and scrolling navbar */
 @media (min-width: 768px) {
   .navbar.scrolling-navbar {
-    -webkit-transition:background .5s ease-in-out, padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out; /* transition for original to orange */
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; /* transition for original to orange */
     /* Possible removal */
     padding-top: 16px;
-    padding-bottom: 16px
+    padding-bottom: 16px;
   }
-  .navbar.scrolling-navbar .navbar-nav>li {
+  .navbar.scrolling-navbar .navbar-nav > li {
     -webkit-transition-duration: 1s;
-    transition-duration: 1s
+    transition-duration: 1s;
   }
   /* Possible removal */
   .navbar.scrolling-navbar.top-nav-collapse {
-
   }
   .intro-margin.view {
     overflow: visible;
@@ -116,8 +114,9 @@ dP                 d8888P */
     padding-bottom: 0px;
     /* Resetting padding-top/bottom to remove transition effect */
   }
-  .Navbar__navbar.scrolling-navbar .navbar-nav>li {
-    -webkit-transition-duration: 1s; transition-duration: 1s
+  .Navbar__navbar.scrolling-navbar .navbar-nav > li {
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
   }
   .Navbar__navbar.scrolling-navbar.top-nav-collapse {
     /* Resetting padding-top/bottom to remove transition effect */
@@ -153,14 +152,14 @@ dP                 d8888P */
   .Navbar__nav-item .Navbar__nav-link--app {
     padding: 4px 16px;
   }
-  
+
   .navbar-light .navbar-toggler {
     margin-top: 10px;
     padding: 2px 8px;
     border-color: #999;
     background-color: #f7f7f7;
   }
-  
+
   .navbar-light .navbar-toggler:focus {
     outline: none;
   }
