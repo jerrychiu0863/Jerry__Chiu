@@ -2,12 +2,12 @@ import React from 'react';
 import '../css/Projects.css';
 
 //Project images
-import project1 from '../assets/projects/winkel.jpg';
-import cssBGgenerator from '../assets/projects/cssGenerator.jpg';
-import blog from '../assets/projects/blog.jpg';
-import news from '../assets/projects/news.jpg';
-import todo from '../assets/projects/todo.jpg';
-import artist from '../assets/projects/artist.jpg';
+import winkel from '../assets/projects/winkel_600x299.jpg';
+import cssBGgenerator from '../assets/projects/css-generator_600x299.jpg';
+import DecoMe from '../assets/projects/decome_600x299.jpg';
+import blog from '../assets/projects/blog_600x299.jpg';
+import news from '../assets/projects/news_600x299.jpg';
+import todo from '../assets/projects/todo_600x299.jpg';
 
 //Components
 import ProjectItem from './ProjectItem';
@@ -19,12 +19,12 @@ const Projects = () => {
       <div className="container">
         <HeaderDisplay header={'Projects'} />
         <ProjectItem
-          porjectOne={project1}
+          porjectOne={winkel}
           titleOne={'Win-Kel'}
           urlOne={'https://www.win-kel.com/'}
-          projectTwo={blog}
-          urlTwo={'https://stark-brook-84904.herokuapp.com/'}
-          titleTwo={'Blog Engine'}
+          projectTwo={DecoMe}
+          urlTwo={'https://jerrychiu0863.github.io/ecommerce/#/'}
+          titleTwo={'DecoMe'}
         />
         <ProjectItem
           porjectOne={cssBGgenerator}
@@ -32,17 +32,17 @@ const Projects = () => {
           urlOne={
             'https://jerrychiu0863.github.io/react_redux_transitionBackgroundGenerator/'
           }
-          projectTwo={news}
-          titleTwo={'News Search Engine'}
-          urlTwo={'https://jerrychiu0863.github.io/react_news_app/'}
+          projectTwo={blog}
+          titleTwo={'Blog Engine'}
+          urlTwo={'https://stark-brook-84904.herokuapp.com/'}
         />
         <ProjectItem
           porjectOne={todo}
           titleOne={'The Eisenhower Matrix Todo App'}
           urlOne={'https://jerrychiu0863.github.io/react_todo_app/'}
-          projectTwo={artist}
-          titleTwo={"Artist's Portfolio"}
-          urlTwo={'https://jerrychiu0863.github.io/artist_web/'}
+          projectTwo={news}
+          titleTwo={'News Search Engine'}
+          urlTwo={'https://jerrychiu0863.github.io/react_news_app/'}
         />
       </div>
     </div>

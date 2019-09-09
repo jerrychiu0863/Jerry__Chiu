@@ -53,7 +53,6 @@ class Banner extends Component {
           <div className="stripe stripe-2 stop" />
           <div className="stripe stripe-3 stop" />
         </div>
-
         <div className="Banner__container">
           <h1 className="Banner__header--main">Kuan-Jen Chiu</h1>
           <p className="Banner__header--sub">
