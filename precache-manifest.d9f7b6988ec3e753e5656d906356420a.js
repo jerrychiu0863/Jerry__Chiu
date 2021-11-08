@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b85a85a9db8b9dbd884028a92558dccd",
-    "url": "/Jerry__Chiu/static/media/decome_600x299.b85a85a9.jpg"
+    "revision": "9baa192a9e317816eec2",
+    "url": "/Jerry__Chiu/static/css/main.8bcd4174.chunk.css"
   },
   {
-    "revision": "49d030f782cedee2ecfd",
-    "url": "/Jerry__Chiu/static/css/main.d40613be.chunk.css"
+    "revision": "9baa192a9e317816eec2",
+    "url": "/Jerry__Chiu/static/js/main.6cc3ea26.chunk.js"
   },
   {
     "revision": "a6af6e32b49851533584",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/Jerry__Chiu/static/media/css-generator_600x299.439ea81d.jpg"
   },
   {
-    "revision": "49d030f782cedee2ecfd",
-    "url": "/Jerry__Chiu/static/js/main.9f9cae2b.chunk.js"
+    "revision": "b85a85a9db8b9dbd884028a92558dccd",
+    "url": "/Jerry__Chiu/static/media/decome_600x299.b85a85a9.jpg"
   },
   {
     "revision": "35a589a427a9324d0c81270479e98f25",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/Jerry__Chiu/static/media/keyboard.c76efb0c.jpg"
   },
   {
-    "revision": "d51dbe149110107c238c9b0fd279c010",
+    "revision": "b8288496303a589e1a85697373d92d2b",
     "url": "/Jerry__Chiu/index.html"
   }
 ];
