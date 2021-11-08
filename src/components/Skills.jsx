@@ -9,23 +9,23 @@ const skillLists = [
     id: 1,
     type: 'Front end',
     content:
-      'HTML / CSS / JavaScript / React / Redux / Bootstrap / jQuery / Sass / RWD / React Router / Ajax / Redux-Thunk'
+      'HTML / CSS / JavaScript / React / Redux / Bootstrap / jQuery / Sass / RWD / React Router / Ajax / Redux-Thunk',
   },
   {
     id: 2,
     type: 'Back end',
-    content: 'REST API / Node.js / Express / MongoDB / Mongoose'
+    content: 'REST API / Node.js / Express / MongoDB / Mongoose',
   },
   {
     id: 3,
     type: 'Misc.',
-    content: 'Git / Github / Gitlab / NPM / Yarn / Heroku / Google Analytics'
-  }
+    content: 'Git / Github / Gitlab / NPM / Yarn / Heroku',
+  },
 ];
 
 const Skills = () => {
-  const renderList = lists => {
-    return lists.map(list => (
+  const renderList = (lists) => {
+    return lists.map((list) => (
       <Card
         key={list.id}
         id={list.id}
