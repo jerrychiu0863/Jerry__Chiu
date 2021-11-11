@@ -9,12 +9,12 @@ const skillLists = [
     id: 1,
     type: 'Front end',
     content:
-      'HTML / CSS / JavaScript / React / Redux / Bootstrap / jQuery / Sass / RWD / React Router / Ajax / Redux-Thunk',
+      'HTML / CSS / JavaScript / React / Redux / Bootstrap / jQuery / Sass / RWD / React Router / Ajax / GatsbyJS',
   },
   {
     id: 2,
-    type: 'Back end',
-    content: 'REST API / Node.js / Express / MongoDB / Mongoose',
+    type: 'Design Tool',
+    content: 'AdobeXD / Figma / Illustrator / Photoshop',
   },
   {
     id: 3,
