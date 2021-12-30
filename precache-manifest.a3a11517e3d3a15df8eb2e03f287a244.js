@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "58d3f6894a4ab563bb0a",
+    "revision": "697cb0be12f272d68be2",
     "url": "/Jerry__Chiu/static/css/main.8a68ee3f.chunk.css"
   },
   {
-    "revision": "58d3f6894a4ab563bb0a",
-    "url": "/Jerry__Chiu/static/js/main.00bb2e54.chunk.js"
+    "revision": "697cb0be12f272d68be2",
+    "url": "/Jerry__Chiu/static/js/main.fe33caaf.chunk.js"
   },
   {
     "revision": "a6af6e32b49851533584",
@@ -24,10 +24,6 @@ self.__precacheManifest = [
     "url": "/Jerry__Chiu/static/media/clue_event_600x299.2d0e0890.jpg"
   },
   {
-    "revision": "c1c262552fc98382977f1618cfe3126f",
-    "url": "/Jerry__Chiu/static/media/clue_article_600x299.c1c26255.jpg"
-  },
-  {
     "revision": "439ea81d0b0ff7673200edadf212fab1",
     "url": "/Jerry__Chiu/static/media/css-generator_600x299.439ea81d.jpg"
   },
@@ -40,15 +36,19 @@ self.__precacheManifest = [
     "url": "/Jerry__Chiu/static/media/competnion_600x299.2c3db388.jpg"
   },
   {
-    "revision": "8392ff5585db2357a91c44346dd71ad7",
-    "url": "/Jerry__Chiu/static/media/todo_600x299.8392ff55.jpg"
+    "revision": "43b9cfe65f1b26aa6394830dfc97d021",
+    "url": "/Jerry__Chiu/static/media/red_600x299.43b9cfe6.jpg"
+  },
+  {
+    "revision": "c1c262552fc98382977f1618cfe3126f",
+    "url": "/Jerry__Chiu/static/media/clue_article_600x299.c1c26255.jpg"
   },
   {
     "revision": "c76efb0cffa1bf5574dce1736b82f8e1",
     "url": "/Jerry__Chiu/static/media/keyboard.c76efb0c.jpg"
   },
   {
-    "revision": "0905e187a633985549809d2357479bed",
+    "revision": "5bfbd56b1e5f078b3520ac178a736145",
     "url": "/Jerry__Chiu/index.html"
   }
 ];
