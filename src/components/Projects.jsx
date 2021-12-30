@@ -7,8 +7,8 @@ import clueEvent from '../assets/projects/clue_event_600x299.jpg';
 import clueArticle from '../assets/projects/clue_article_600x299.jpg';
 import cssBGgenerator from '../assets/projects/css-generator_600x299.jpg';
 import DecoMe from '../assets/projects/decome_600x299.jpg';
-import todo from '../assets/projects/todo_600x299.jpg';
 import Competnion from '../assets/projects/competnion_600x299.jpg';
+import Red from '../assets/projects/red_600x299.jpg';
 
 //Components
 import ProjectItem from './ProjectItem';
@@ -28,11 +28,9 @@ const Projects = () => {
           titleTwo={'DecoMe'}
         />
         <ProjectItem
-          porjectOne={clueArticle}
-          titleOne={'Blog Page'}
-          urlOne={
-            'https://www.clue.com.tw/webinars/Content/eDM/clue_article.html'
-          }
+          porjectOne={Red}
+          titleOne={'Red'}
+          urlOne={'https://jerrychiu0863.github.io/red/'}
           projectTwo={clueEvent}
           urlTwo={
             'https://www.clue.com.tw/webinars/Content/eDM/clue_event.html'
