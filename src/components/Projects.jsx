@@ -10,6 +10,7 @@ import DecoMe from '../assets/projects/decome_600x299.jpg';
 import Competnion from '../assets/projects/competnion_600x299.jpg';
 import Red from '../assets/projects/red_600x299.jpg';
 import Green from '../assets/projects/green_600x299.jpg';
+import P5 from '../assets/projects/p5_600x299.jpg';
 
 //Components
 import ProjectItem from './ProjectItem';
@@ -48,9 +49,9 @@ const Projects = () => {
           porjectOne={Green}
           titleOne="Green"
           urlOne="https://jerrychiu0863.github.io/multi-layer-banner/"
-          projectTwo={Red}
-          titleTwo="Red"
-          urlTwo="https://jerrychiu0863.github.io/red/"
+          projectTwo={P5}
+          titleTwo="P5 Projects"
+          urlTwo="https://openprocessing.org/user/307138?view=sketches"
         />
       </div>
     </div>

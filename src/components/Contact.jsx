@@ -8,7 +8,7 @@ const contactLists = [
   },
   {
     icon: 'fas fa-phone',
-    body: '0910-200-918',
+    body: '+886910-200-918',
   },
   // {
   //   icon: 'fas fa-envelope',

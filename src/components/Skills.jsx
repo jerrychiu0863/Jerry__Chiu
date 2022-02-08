@@ -9,7 +9,7 @@ const skillLists = [
     id: 1,
     type: 'Front end',
     content:
-      'HTML / CSS / JavaScript / React / Redux / Bootstrap / jQuery / Sass / RWD / React Router / Ajax / GatsbyJS',
+      'HTML / CSS / JavaScript / React / Redux / Bootstrap / jQuery / Sass / RWD / React Router / Ajax / GatsbyJS / P5JS',
   },
   {
     id: 2,
