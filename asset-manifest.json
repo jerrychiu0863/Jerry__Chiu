@@ -1,13 +1,13 @@
 {
   "main.css": "/Jerry__Chiu/static/css/main.8a68ee3f.chunk.css",
-  "main.js": "/Jerry__Chiu/static/js/main.b481627b.chunk.js",
-  "main.js.map": "/Jerry__Chiu/static/js/main.b481627b.chunk.js.map",
+  "main.js": "/Jerry__Chiu/static/js/main.4bc1dc67.chunk.js",
+  "main.js.map": "/Jerry__Chiu/static/js/main.4bc1dc67.chunk.js.map",
   "runtime~main.js": "/Jerry__Chiu/static/js/runtime~main.45f63a7c.js",
   "runtime~main.js.map": "/Jerry__Chiu/static/js/runtime~main.45f63a7c.js.map",
-  "static/js/2.ec2d4e7f.chunk.js": "/Jerry__Chiu/static/js/2.ec2d4e7f.chunk.js",
-  "static/js/2.ec2d4e7f.chunk.js.map": "/Jerry__Chiu/static/js/2.ec2d4e7f.chunk.js.map",
+  "static/js/2.05c3310e.chunk.js": "/Jerry__Chiu/static/js/2.05c3310e.chunk.js",
+  "static/js/2.05c3310e.chunk.js.map": "/Jerry__Chiu/static/js/2.05c3310e.chunk.js.map",
   "index.html": "/Jerry__Chiu/index.html",
-  "precache-manifest.50f795d3e876b694e7b9f9db0c5c5cef.js": "/Jerry__Chiu/precache-manifest.50f795d3e876b694e7b9f9db0c5c5cef.js",
+  "precache-manifest.872d5ef6650192fa140080759b1dc22f.js": "/Jerry__Chiu/precache-manifest.872d5ef6650192fa140080759b1dc22f.js",
   "service-worker.js": "/Jerry__Chiu/service-worker.js",
   "static/css/main.8a68ee3f.chunk.css.map": "/Jerry__Chiu/static/css/main.8a68ee3f.chunk.css.map",
   "static/media/clue_article_600x299.jpg": "/Jerry__Chiu/static/media/clue_article_600x299.c1c26255.jpg",
@@ -18,5 +18,6 @@
   "static/media/green_600x299.jpg": "/Jerry__Chiu/static/media/green_600x299.25a4184b.jpg",
   "static/media/Contact.css": "/Jerry__Chiu/static/media/keyboard.c76efb0c.jpg",
   "static/media/one_page_600x299.jpg": "/Jerry__Chiu/static/media/one_page_600x299.fdd9d13e.jpg",
+  "static/media/p5_600x299.jpg": "/Jerry__Chiu/static/media/p5_600x299.faac9e1d.jpg",
   "static/media/red_600x299.jpg": "/Jerry__Chiu/static/media/red_600x299.43b9cfe6.jpg"
 }
