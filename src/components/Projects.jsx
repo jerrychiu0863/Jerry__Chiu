@@ -11,6 +11,7 @@ import Competnion from '../assets/projects/competnion_600x299.jpg';
 import Red from '../assets/projects/red_600x299.jpg';
 import Green from '../assets/projects/green_600x299.jpg';
 import P5 from '../assets/projects/p5_600x299.jpg';
+import Clue from '../assets/projects/clue_600x299.jpg';
 
 //Components
 import ProjectItem from './ProjectItem';
@@ -25,22 +26,22 @@ const Projects = () => {
           porjectOne={Competnion}
           titleOne="Animal Adoption Website"
           urlOne="https://competnion.netlify.app/"
-          projectTwo={DecoMe}
-          urlTwo="https://jerrychiu0863.github.io/ecommerce/#/"
-          titleTwo="DecoMe"
+          projectTwo={Clue}
+          urlTwo="https://jerrychiu0863.github.io/clue/"
+          titleTwo="Columbia English Consulting Company"
         />
-        <ProjectItem
+        {/* <ProjectItem
           porjectOne={clueArticle}
           titleOne="Blog Page"
           urlOne="https://www.clue.com.tw/webinars/Content/eDM/clue_article.html"
           projectTwo={clueEvent}
           urlTwo="https://www.clue.com.tw/webinars/Content/eDM/clue_event.html"
           titleTwo="Event Page"
-        />
+        /> */}
         <ProjectItem
-          porjectOne={onePage}
-          titleOne="One Page Adverstisement"
-          urlOne="https://www.clue.com.tw/webinars/LandingPage/Get/Wyf0T"
+          porjectOne={DecoMe}
+          titleOne="Deco me"
+          urlOne="https://jerrychiu0863.github.io/ecommerce/#/"
           projectTwo={cssBGgenerator}
           titleTwo="Css Background Generator"
           urlTwo="https://jerrychiu0863.github.io/react_redux_transitionBackgroundGenerator/"
